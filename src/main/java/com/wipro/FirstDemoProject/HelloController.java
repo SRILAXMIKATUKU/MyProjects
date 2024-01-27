@@ -2,18 +2,16 @@ package com.wipro.FirstDemoProject;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 //@RestController
 @Controller
 public class HelloController {
-
-/*	
-	@RequestMapping("/")
-	public String sayHello(){
-		return "Welocme to First Demo Project";
+	
+	@RequestMapping("/index")
+	public String sayIndex(){
+		return "index";
 	}
-*/
+
 	
 	@RequestMapping("/name")
 	public String sayName(){
