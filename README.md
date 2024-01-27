@@ -1,1 +1,1 @@
-# MyProjects
+# Demo project for Spring Boot
